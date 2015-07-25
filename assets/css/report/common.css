@@ -1,0 +1,32 @@
+.reportHeader {height: 60px; width: 100%; background-color: #232323; padding: 1px 10%; text-align: center;}
+.reportHeader .logo {float:left; margin-top: 3px; width: 140px;}
+.reportHeader .title {flex: 1; color: #FFFFFF; font-size: 25px; line-height: 50px; margin-left: -30px;}
+.reportHeader .score {float: right; line-height: 55px; color: #FFF;}
+
+.reportSubHeader {position: relative; min-height: 90px; background-color: #F6F7F9; color: #787676; margin-right: 0; width: 100%; padding: 0 10%; border-bottom: 1px #E6E3DF solid;}
+.reportSubHeader .intro {width: 75%; font-weight: 400; font-style: normal; font-size: 15px; color: #333333; float: left; margin-top: 15px; margin-left: 50px; text-indent:2em;}
+.reportSubHeader .annotation {float: right; position: absolute; font-weight: 400; font-style: oblique; font-size: 12px; color: #999999; bottom: 5px; right: 10%;}
+
+.reportCard {width: 100%; padding: 0 16%; margin-top: 20px;}
+.reportCard .reportCardHeader {height: 60px; line-height: 60px; font-size: 24px; text-align: left; text-indent: .5em; background-color: #F5F5F5;}
+.reportCard .reportCardBody {font-size: 13px; line-height: 22px; padding: 5px 70px; background-color: #FFF; border: 1px solid #F1F1F1;}
+.reportCard .reportCardBody .pageHeader {height: 32px; font-size: 18px; color: #989898; border-bottom: 1px solid #CCCCCC; margin-top: 30px;}
+.reportCard .reportCardBody .pageContent {background-color: #FFF; border: 0; font-family: "Microsoft YaHei"; line-height: 22px;}
+.reportCard .reportCardBody .pageHeaderEm {font-weight: bold; font-size: 16px; margin-top: 20px;}
+.reportCard .reportCardBody .menuLink {text-decoration: none;}
+
+.reportCard .reportCardContentBody {font-size: 13px; line-height: 22px; padding: 5px 10px; background-color: #FFF; border: 1px solid #F1F1F1;}
+.reportCard .reportCardContentBody .contentPageHeader {height: 60px; line-height: 55px; padding: 0 60px; margin-top: 5px; font-weight: 700; font-style: normal; font-size: 18px; color: #989898;}
+.reportCard .reportCardContentBody .contentPageHeader .score {float: right; line-height: 55px; font-size: 17px; color: #666666; font-weight: normal;}
+.reportCard .reportCardContentBody .contentPageHeaderEm {font-weight: bold; padding: 0 60px; font-size: 16px; margin-top: 10px;}
+.reportCard .reportCardContentBody .contentSubPageHeader {height: 28px; font-size: 16px; color: #989898; border-bottom: 1px solid #CCCCCC; margin: 20px 60px 0 60px;}
+.reportCard .reportCardContentBody .contentSubPageHeader .title {font-weight: bold;}
+.reportCard .reportCardContentBody .contentSubPageHeader .annotation {color: #333333;}
+.reportCard .reportCardContentBody .contentSubPageP {padding-left: 100px; margin: 10px 0;background-color: #FFF; border: 0; font-family: "Microsoft YaHei"; line-height: 22px;}
+
+.reportCard .reportCardContentBody .contentScore_S {background-color: #EBF8ED;}
+.reportCard .reportCardContentBody .contentScore_A {background-color: #DDF4F9;}
+.reportCard .reportCardContentBody .contentScore_B {background-color: #FFF6D9;}
+.reportCard .reportCardContentBody .contentScore_C {background-color: #FEE9DE;}
+
+.reportCard .reportCardBodyAppendix {font-size: 18px;}
